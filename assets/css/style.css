@@ -1,0 +1,43 @@
+/*-------------------------------Navbar-----*/
+
+
+/*-------------------------------Hero-----*/
+.hero{
+    height:90vh;
+    width:100vw;
+    background:url('../img/image.png')top center no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-card{
+    text-align: center;
+    margin-top:5%;
+    width:500px;
+    height: 400px;
+    background:rgba(0, 0, 0, 0.2);
+    color:#fafafa;
+}
+
+
+
+
+/*-------------------------------Footer-----*/
+.footer{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+.footer-link{
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+.footer-text{
+    text-align: center;
+}
